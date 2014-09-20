@@ -1,4 +1,7 @@
+
+var number = "435-215-9248"
 var callFriend = function(){
+
   var friend = 'Jake';
   function callF(number){
     return 'Calling ' + friend + ' at ' + number;
@@ -10,3 +13,5 @@ var callFriend = function(){
 //Do what you need with the code above in order to console.log 'Calling Jake at 435-215-9248'
 
 
+var foo = callFriend();
+foo(number);
